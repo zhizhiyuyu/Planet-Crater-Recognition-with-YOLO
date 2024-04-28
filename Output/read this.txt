@@ -1,0 +1,8 @@
+The output directory should be added to .gitignore
+
+detections: contain .csv files, which record the craters boundaries, size, and location
+! The performance metric program needs to read these files for the detected crater boundaries
+
+images: contain .png files, the craters with boundaries (detection and truth labels in different colors)
+
+statistics: contain .csv files, TP FP FN...
